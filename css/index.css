@@ -1,17 +1,37 @@
-.layout {
-    width: 1366px;
-    height: 768px;
-  
-    display: grid;
-    grid:
-      "header header header" auto
-      "leftSide body rightSide" 1fr
-      "footer footer footer" auto
-      / auto 1fr auto;
-    gap: 8px;
-  }
-  
-  .header { grid-area: header; background-image: url(/images/microbots.jpg); background-size: cover;}
-  .leftSide { grid-area: leftSide; }
-  .body { grid-area: body; }
- 
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#header {
+    background-color: #007bff;
+    height: 150px;
+}
+
+#leftSidebar {
+    background-color: #f8f9fa;
+    width: 200px;
+    padding: 20px;
+    font-size: smaller;
+}
+
+#leftSidebar h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#leftSidebar .box {
+    background-color: #fff;
+    border: 1px solid #007bff;
+    padding: 10px;
+}
