@@ -38,3 +38,10 @@ filter: blur(1px);
     border: 1px solid #007bff;
     padding: 10px;
 }
+
+a {
+    color:var(red);
+    line-height: 20px;
+    font-weight:bold;
+    text-decoration: underline;
+}
