@@ -13,7 +13,10 @@ body {
 }
 
 #header {
-    background-color: #007bff;
+background-image: url(/images/fullrobot.jpg);
+background-size: cover;
+background-position: 90px;
+filter: blur(1px);
     height: 150px;
 }
 
